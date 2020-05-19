@@ -70,9 +70,8 @@ section:after {
 .threethings {
     margin: 0 auto;
     padding: 2rem;
-}
-.threethings div {
-    display: inline-block;
+    display: flex;
+    flex-flow: row nowrap;
 }
 .threethings li {
     list-style-type: none;
@@ -80,18 +79,16 @@ section:after {
     font-size: 1.3rem;
     line-height: 2rem;
 }
-.threethings .quote {
+.quote {
     text-align: center;
     margin-left: 6rem;
     color: #F1BF5B;
     background-color: #222933;
-    padding-bottom: 0.75rem;
-}
-.quote {
-    vertical-align: super;
+    margin-top: 0.5rem;
 }
 blockquote p {
     font-size: 1.5rem;
+    margin-top: 2rem;
 }
 footer {
     text-align: center;

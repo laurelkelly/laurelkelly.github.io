@@ -57,6 +57,12 @@ section a {
 section a:hover {
     color: #BF472C;
 }
+#firstlink {
+    color: #F4C852;
+}
+#firstlink:hover {
+    color: #BF472C;
+}
 section li {
     list-style-type: square;
     color: #F3D290;

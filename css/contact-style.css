@@ -12,14 +12,13 @@ body {
 h1 {
     background-color: #132133;
     font-size: 2rem;
-    padding: 2rem;
+    padding: 2rem 3rem;
     color: #F3D290;
 }
-h2, h3 {
-    color: #F3D290;
+h2 {
+    color: #F1BF5B;
 }
-h3 {
-    padding-top: 0.4rem;
+#rightheading {
     margin-bottom: 2rem;
 }
 a {
@@ -56,6 +55,7 @@ nav a:hover {
 section {
     flex-basis: 54%;
     margin-right:10%;
+    margin-bottom: 3rem;
 }
 aside {
     flex-basis: 36%;
@@ -94,9 +94,9 @@ button {
     padding: 0.5rem 1.5rem;
 }
 button:hover {
-    background-color: #F1BF5B;
+    background-color: #F2E3D0;
     color: black;
-    border: 1px solid #F1BF5B;
+    border: 1px solid #F2E3D0;
 }
 aside {
     margin: 0;
@@ -104,10 +104,10 @@ aside {
 }
 footer {
     text-align: center;
-    background-color: #132133;
-    padding: 1rem 0 2rem 0;
+    background-color: #0F1A29;
+    padding: 1rem 0 1rem 0;
     font-weight: bold;
-    color: #F3D290;
+    color: #1B4758;
 }
 footer ul {
     margin: 0;
@@ -116,12 +116,22 @@ footer ul {
 }
 footer li {
     display: inline-block;
-    font-size: 1.5rem;
-    padding: 0 0.2rem;
+    font-size: 2rem;
+    padding: 0 0.3rem;
 }
 footer a {
-    color: #F3D290;
+    color: #1B4758;
 }
 footer a:hover {
+    color: #F3D290;
+}
+#credit {
+    font-size: 0.9rem;
+}
+#credit a {
+    font-size: 1rem;
     color: #BF472C;
+}
+#credit a:hover {
+    color: #F3D290;
 }

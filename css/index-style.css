@@ -10,13 +10,21 @@ body {
     color: #F2E3D0;
 }
 h1 {
-    background-color: #132133;
+    background-color: #0F1A29;
     font-size: 2rem;
-    padding: 2rem;
+    padding: 2rem 3rem;
     color: #F3D290;
 }
+span {
+    color: #1B4758;
+}
 h2 {
-    color: #BF472C;
+    color: #F1BF5B;
+    font-size: 2rem;
+}
+hr {
+    width: 50%;
+    border: 2px solid #BF472C;
 }
 a {
     color: #BF472C;
@@ -44,58 +52,48 @@ nav a:hover {
 }
 section {
     padding: 0 5rem 0 5rem;
-    margin-bottom: 1rem;
-    display: flex;
-    flex-flow: column nowrap;
-}
-article img {
-    float: left;
-    margin: 1.5rem 3rem 2rem 0;
-}
-article p {
-    line-height: 1.8rem;
-    font-size: 1.2rem;
-}
-article a {
-    color: #F1BF5B;
-}
-article a:hover {
-    color: #BF472C;
-}
-section:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.threethings {
-    margin: 0 auto;
-    padding: 2rem;
+    margin-bottom: 3rem;
     display: flex;
     flex-flow: row nowrap;
 }
-.threethings li {
-    list-style-type: none;
-    font-style: italic;
-    font-size: 1.3rem;
-    line-height: 2rem;
-}
-.quote {
+.left {
+    flex-basis: 40%;
     text-align: center;
-    margin-left: 6rem;
-    color: #F1BF5B;
+    padding: 2rem 2rem 3rem 2rem;
     background-color: #222933;
-    margin-top: 0.5rem;
+    border-radius: 10px;
+    margin: 1.5rem 2.5% 3rem 7.5%;
 }
-blockquote p {
-    font-size: 1.5rem;
+.right {
+    flex-basis: 40%;
+    text-align: center;
+    padding: 2rem 2rem 3rem 2rem;
+    background-color: #222933;
+    border-radius: 10px;
+    margin: 1.5rem 7.5% 3rem 2.5%;
+}
+div ul {
+    list-style-type: none;
     margin-top: 2rem;
+    padding: 0;
+    text-align: center;
+}
+div li {
+    margin-bottom: 0.75rem;
+    font-size: 1.5rem;
+}
+div a {
+    color: #F3D290;
+}
+div a:hover {
+    color: #1B4758;
 }
 footer {
     text-align: center;
-    background-color: #132133;
-    padding: 1rem 0 2rem 0;
+    background-color: #0F1A29;
+    padding: 1rem 0 1rem 0;
     font-weight: bold;
-    color: #F3D290;
+    color: #1B4758;
 }
 footer ul {
     margin: 0;
@@ -104,14 +102,24 @@ footer ul {
 }
 footer li {
     display: inline-block;
-    font-size: 1.5rem;
-    padding: 0 0.2rem;
+    font-size: 2rem;
+    padding: 0 0.3rem;
 }
 footer a {
-    color: #F3D290;
+    color: #1B4758;
 }
 footer a:hover {
+    color: #F3D290;
+}
+#credit {
+    font-size: 0.9rem;
+}
+#credit a {
+    font-size: 1rem;
     color: #BF472C;
+}
+#credit a:hover {
+    color: #F3D290;
 }
 
 

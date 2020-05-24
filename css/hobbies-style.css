@@ -10,10 +10,10 @@ body {
     color: #F2E3D0;
 }
 h1 {
-    background-color: #132133;
+    background-color: #13171C;
     font-size: 2rem;
     padding: 2rem 3rem;
-    color: #F3D290;
+    color: #BF472C;
 }
 h2 {
     color: #BF472C;
@@ -30,7 +30,6 @@ nav ul {
 }
 nav li {
     display: inline-block;
-    margin-bottom: 1.5rem;
 }
 nav a {
     text-decoration: none;
@@ -44,7 +43,7 @@ nav a:hover {
 }
 section {
     padding: 0 5.5rem 0 5.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
     display: flex;
     flex-flow: column nowrap;
     line-height: 1.8rem;
@@ -84,7 +83,7 @@ em {
 }
 footer {
     text-align: center;
-    background-color: #0F1A29;
+    background-color: #13171C;
     padding: 1rem 0 1rem 0;
     font-weight: bold;
     color: #1B4758;
@@ -113,5 +112,5 @@ footer a:hover {
     color: #BF472C;
 }
 #credit a:hover {
-    color: #F3D290;
+    color: #802F1D;
 }

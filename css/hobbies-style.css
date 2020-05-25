@@ -56,10 +56,10 @@ section a {
 section a:hover {
     color: #BF472C;
 }
-#firstlink {
-    color: #F59F47;
+.hobbylinks {
+    color: #DE7135;
 }
-#firstlink:hover {
+.hobbylinks:hover {
     color: #BF472C;
 }
 section ul {

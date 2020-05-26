@@ -9,10 +9,16 @@ body {
     background-color: black;
     color: #F3D290;
 }
+header {
+    width: 100%;
+    height: 10rem;
+}
 h1 {
     background-color: #13171C;
     font-size: 2rem;
     padding: 2rem 3rem;
+    margin-top: 0;
+    margin-bottom: 0;
     color: #BF472C;
 }
 h2 {
@@ -30,14 +36,13 @@ nav ul {
 }
 nav li {
     display: inline-block;
-    margin-bottom: 1.5rem;
 }
 nav a {
     text-decoration: none;
     color: #BF472C;
     font-size: 1.2rem;
     display: block;
-    padding: 0.5rem 4rem;
+    padding: 1rem 4rem;
 }
 nav a:hover {
     color: #F3D290;

@@ -89,6 +89,9 @@ div li {
 div a {
     color: #F3D290;
 }
+div a:visited {
+    color: #B38E44;
+}
 div a:hover {
     color: #BF472C;
 }
@@ -113,7 +116,7 @@ footer a {
     color: #1B4758;
 }
 footer a:hover {
-    color: #2A6D87;
+    color: #466673;
 }
 #credit {
     font-size: 0.9rem;

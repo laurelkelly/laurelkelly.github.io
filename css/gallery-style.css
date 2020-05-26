@@ -72,14 +72,14 @@ nav a:hover {
 }
 .directions {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #F3D290;
 }
 .swiper-slide {
     text-align: center;
 }
 img {
-    height: 600px;
+    height: 450px;
 }
 .info-blurb {
     font-size: 1.2rem;
@@ -100,12 +100,12 @@ img {
     color: #BF472C;
 }
 .swiper-button-prev {
-    margin-top: 10rem;
-    margin-left: 15%;
+    margin-top: 5rem;
+    margin-left: 23%;
 }
 .swiper-button-next {
-    margin-top: 10rem;
-    margin-right: 15%;
+    margin-top: 5rem;
+    margin-right: 23%;
 }
 footer {
     text-align: center;

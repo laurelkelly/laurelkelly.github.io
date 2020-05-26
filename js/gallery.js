@@ -31,6 +31,7 @@ listen(document, 'mouseup touchend')
     ballXY.stop();
   });
 
+  /*
   const { transformMap, smooth } = transform;
 
   const smoothXY = transformMap({
@@ -43,3 +44,4 @@ listen(document, 'mouseup touchend')
       .pipe(smoothXY)
       .start(ballXY)
   );
+  */

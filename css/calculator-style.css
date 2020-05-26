@@ -5,6 +5,8 @@ html {
     box-sizing: inherit;
 }
 body {
+    padding: 0;
+    margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: black;
     color: #F3D290;
@@ -21,11 +23,11 @@ h1 {
     margin-bottom: 0;
     color: #BF472C;
 }
-h2 {
-    color: #F1BF5B;
-}
 span {
     color: #1B4758;
+}
+h2 {
+    color: #F1BF5B;
 }
 a {
     color: #BF472C;
@@ -50,63 +52,60 @@ nav a {
 nav a:hover {
     color: #F3D290;
 }
+.content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: 1px solid white;
+}
 .wrapper {
-    width: 80%;
+    width: 400px;
     margin: 0 auto;
-    margin-bottom: 3rem;
-    padding: 1.5em 4em;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1px dashed green;
+}
+.calc-button-row {
     display: flex;
     flex-flow: row nowrap;
-    background-color: #222933;
-    border-radius: 10px;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
 }
-section {
-    flex-basis: 57%;
-    margin-right: 7%;
+.screen {
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px 5px; 
+    font-size: 40px;
 }
-aside {
-    flex-basis: 36%;
-    margin: 0;
-    padding: 0;
-}
-#rightheading {
-    margin-bottom: 2rem;
-}
-fieldset {
+.calc-button {
+    background-color: #d8d9db;
+    color: black;
     border: none;
-    padding-left: 0;
+    font-size: 40px;
+    height: 100px;
+    flex-basis: 24.5%;
 }
-label {
-    display: block;
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
+.calc-button:hover {
+    background-color: #ebebeb;
 }
-input,textarea {
-    display: block;
-    margin-bottom: 1.5rem;
-    border: none;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	font-size: 1em;
-    padding: 0.2rem 0 0.2rem 0.5rem;
-    width: 100%;
+.calc-button:active {
+    background-color: #bbbcbe;
 }
-textarea {
-    height: 12rem;
+.double {
+    flex-basis: 49.7%;
 }
-button {
-    margin-bottom: 3rem;
-	background-color: #222933;
-	color: #F3D290;
-    border: 1px solid #F3D290;
-    border-radius: 8px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.2rem;
-    padding: 0.5rem 1.5rem;
+.triple {
+    flex-basis: 74.8%;
 }
-button:hover {
-    background-color: #F3D290;
-    color: #222933;
-    border: 1px solid #F3D290;
+.calc-button:last-child {
+    background-color: #df974c;
+    color: white;
+}
+.calc-button:last-child:hover {
+    background-color: #dfb07e;
+}
+.calc-button:last-child:active {
+    background-color: #dd8d37;
 }
 footer {
     text-align: center;
@@ -141,3 +140,4 @@ footer a:hover {
 #credit a:hover {
     color: #802F1D;
 }
+

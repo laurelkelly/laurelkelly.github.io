@@ -52,10 +52,13 @@ nav a {
 nav a:hover {
     color: #F3D290;
 }
-.content {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    border: 1px solid white;
+.big-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    padding: 2em 4em;
+    background-color: #222933;
+    border-radius: 10px;
 }
 .wrapper {
     width: 400px;
@@ -63,7 +66,6 @@ nav a:hover {
     text-align: center;
     background-color: black;
     color: white;
-    border: 1px dashed green;
 }
 .calc-button-row {
     display: flex;

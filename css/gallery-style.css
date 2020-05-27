@@ -74,12 +74,14 @@ nav a:hover {
     text-align: center;
     font-size: 1.3rem;
     color: #F3D290;
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem;
 }
 .swiper-slide {
     text-align: center;
 }
 img {
-    height: 450px;
+    height: 480px;
 }
 .info-blurb {
     font-size: 1.2rem;
@@ -98,14 +100,6 @@ img {
 }
 .info-blurb a:hover {
     color: #BF472C;
-}
-.swiper-button-prev {
-    margin-top: 5rem;
-    margin-left: 23%;
-}
-.swiper-button-next {
-    margin-top: 5rem;
-    margin-right: 23%;
 }
 footer {
     text-align: center;

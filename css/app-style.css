@@ -25,16 +25,21 @@ h1 {
     padding: 2rem 3rem;
     margin-top: 0;
     margin-bottom: 0;
-    margin-right: 40%;
     color: #BF472C;
 }
 span {
     color: #1B4758;;
 }
 .breeds {
-    flex-basis: 15%;
-    margin-top: 2.5rem;
+    width: 180px;
+    margin-left: 30%;
+    padding: 0;
+    margin-top: 2.2rem;
+    margin-bottom: 2.2rem;
     justify-content: right;
+    font-size: 1rem;
+    background-color: #F2E3D0;
+    border: none;
 }
 h2 {
     color: #BF472C;
@@ -82,7 +87,8 @@ nav a:hover {
 .dog-img {
     display: none;
     height: 400px;
-    border: 10px solid #F2E3D0;
+    border: 15px solid #F2E3D0;
+    border-style: outset;
 }
 .show {
     display: block;

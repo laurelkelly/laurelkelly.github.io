@@ -56,7 +56,7 @@ nav a:hover {
     padding: 1.5em 4em;
     display: flex;
     flex-flow: row nowrap;
-    background-color: #222933;
+    background-color: #13171C;
     border-radius: 10px;
 }
 section {
@@ -94,7 +94,7 @@ textarea {
 }
 button {
     margin-bottom: 3rem;
-	background-color: #222933;
+	background-color: #13171C;
 	color: #F3D290;
     border: 1px solid #F3D290;
     border-radius: 8px;

@@ -61,18 +61,23 @@ section {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    padding: 2rem 7rem 4rem 7rem;
+    background-image: url(../images/home-page-laurel-kelly2.jpg);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-bottom: 4rem;
 }
 .left {
-    flex-basis: 40%;
+    flex-basis: 32.5%;
     margin-right: 5%;
+    margin-left: 15%;
     text-align: center;
     padding: 2rem 2rem 3rem 2rem;
     background-color: #222933;
     border-radius: 10px;
 }
 .right {
-    flex-basis: 40%;
+    flex-basis: 32.5%;
+    margin-right: 15%;
     text-align: center;
     padding: 2rem 2rem 3rem 2rem;
     background-color: #222933;

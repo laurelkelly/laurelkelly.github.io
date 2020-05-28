@@ -19,7 +19,7 @@ header {
     display: flex;
     width: 100%;
     padding-right: 5rem;
-    background-color: #13171C;
+    background-color: #836D5E;
 }
 h1 {
     flex-basis: 50%;
@@ -27,10 +27,10 @@ h1 {
     padding: 2rem 3rem;
     margin-top: 0;
     margin-bottom: 0;
-    color: #BF472C;
+    color: black;
 }
 span {
-    color: #1B4758;;
+    color: #802F1D;
 }
 .breeds {
     width: 180px;
@@ -67,10 +67,10 @@ nav a {
     padding: 1rem 4rem;
 }
 nav a:hover {
-    color: #F3D290;
+    color: #F2E3D0;
 }
 .doggos {
-    padding-top: 2rem;
+    padding-top: 1.75rem;
     padding-bottom: 6rem;
 }
 @keyframes spin {
@@ -101,7 +101,7 @@ footer {
     background-color: #13171C;
     padding: 1rem 0 1rem 0;
     font-weight: bold;
-    color: #1B4758;
+    color: #836D5E;
 }
 footer ul {
     margin: 0;
@@ -114,10 +114,10 @@ footer li {
     padding: 0 0.3rem;
 }
 footer a {
-    color: #1B4758;
+    color: #836D5E;
 }
 footer a:hover {
-    color: #466673;
+    color: #F2E3D0;
 }
 #credit {
     font-size: 0.9rem;

@@ -7,44 +7,37 @@ html {
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: black;
-    color: #F3D290;
+    color: #F2E3D0;
 }
 header {
     width: 100%;
     height: 10rem;
 }
-h1 {
+.flex {
+    display: flex;
+    width: 100%;
+    padding-right: 5rem;
     background-color: #13171C;
+}
+h1 {
+    flex-basis: 50%;
     font-size: 2rem;
     padding: 2rem 3rem;
     margin-top: 0;
     margin-bottom: 0;
+    margin-right: 40%;
     color: #BF472C;
 }
 span {
     color: #1B4758;;
 }
-.chapter-title {
-    display: flex;
-    flex-flow: row nowrap;
-    border-top: 0.4rem solid #3D261F;
-    border-bottom: 0.4rem solid #3D261F;
-    padding: 1rem;
+.breeds {
+    flex-basis: 15%;
+    margin-top: 2.5rem;
+    justify-content: right;
 }
 h2 {
-    flex-basis: 57%;
-    color: #F2C6A0;
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    margin-top: 1.5rem;
-}
-.first-photo {
-    flex-basis: 35%;
-    margin-left: 5%;
-    margin-right: 3%;
-    width: 6rem;
+    color: #BF472C;
 }
 a {
     color: #BF472C;
@@ -69,58 +62,31 @@ nav a {
 nav a:hover {
     color: #F3D290;
 }
-.content {
-    color: #BFB8AA;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 43rem;
-    margin: 0 auto;
+.doggos {
+    padding-top: 2rem;
+    padding-bottom: 6rem;
 }
-blockquote {
-    color: #F2C6A0;
+@keyframes spin {
+    to {
+        transform: rotateZ(360deg);
+    }
 }
-.first-quote {
-    width: 14rem;
-    float: left;
-    margin: 0 1rem 1rem 0;
+.spinner {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 165px;
+    padding-bottom: 168px;
+    display: none;
+    animation: 2s spin linear infinite;
 }
-.second-photo {
-    float: left;
-    margin: 0.2rem 1.5rem 0 0;
+.dog-img {
+    display: none;
+    height: 400px;
+    border: 10px solid #F2E3D0;
 }
-.third-photo {
-    float: right;
-    margin: 0 0 1rem 1rem;
-}
-.fourth-photo {
-    float: left;
-    margin: 0.4rem 1rem 1rem 0;
-}
-.content:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.credit {
-    color: #F2C6A0;
-}
-.highlight {
-    color: #F2C6A0;
-    font-weight: bold;
-    float: left;
-    width: 14rem;
-    margin: 0 1rem 0 0;
-}
-#bold {
-    font-weight: bold;
-}
-a:hover, ol {
-    color: #F2C6A0;
-}
-img {
+.show {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+    margin: 0 auto;
 }
 footer {
     text-align: center;
@@ -155,4 +121,3 @@ footer a:hover {
 #credit a:hover {
     color: #802F1D;
 }
-

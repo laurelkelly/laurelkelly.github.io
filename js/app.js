@@ -32,7 +32,6 @@ fetch(BREEDS_URL)
         // console.log(data);
         const breedsObject = data.message;
         const breedsArray = Object.keys(breedsObject);
-        breedsArray.push("havanese");
 
         for(let i = 0; i < breedsArray.length; i++) {
             const option = document.createElement('option');

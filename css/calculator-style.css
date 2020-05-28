@@ -21,7 +21,7 @@ h1 {
     padding: 2rem 3rem;
     margin-top: 0;
     margin-bottom: 0;
-    color: #BF472C;
+    color: #DF974C;
 }
 span {
     color: #1B4758;
@@ -30,7 +30,7 @@ h2 {
     color: #F1BF5B;
 }
 a {
-    color: #BF472C;
+    color: #DF974C;
     text-decoration: none;
 }
 nav ul {
@@ -44,7 +44,7 @@ nav li {
 }
 nav a {
     text-decoration: none;
-    color: #BF472C;
+    color: #DF974C;
     font-size: 1.2rem;
     display: block;
     padding: 1rem 4rem;

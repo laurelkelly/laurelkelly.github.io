@@ -73,7 +73,7 @@ nav a:hover {
     color: #F3FAC3;
 }
 .swiper-container {
-    padding-bottom: 3rem;
+    padding-bottom: 8rem;
 }
 .swiper-slide {
     text-align: center;
@@ -134,8 +134,8 @@ footer a:hover {
 }
 #credit a {
     font-size: 1rem;
-    color: #6B6E56;
+    color: #BF472C;
 }
 #credit a:hover {
-    color: #525442
+    color: #802F1D;
 }

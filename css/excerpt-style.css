@@ -16,15 +16,15 @@ header {
     height: 10rem;
 }
 h1 {
-    background-color: #13171C;
+    background-color: #1C120E;
     font-size: 2rem;
     padding: 2rem 3rem;
     margin-top: 0;
     margin-bottom: 0;
-    color: #BF472C;
+    color: #C97E67;
 }
 span {
-    color: #1B4758;;
+    color: #8A5646;
 }
 .chapter-title {
     display: flex;
@@ -48,10 +48,6 @@ h2 {
     margin-right: 3%;
     width: 6rem;
 }
-a {
-    color: #BF472C;
-    text-decoration: none;
-}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -63,13 +59,13 @@ nav li {
 }
 nav a {
     text-decoration: none;
-    color: #BF472C;
+    color: #C97E67;
     font-size: 1.2rem;
     display: block;
     padding: 1rem 4rem;
 }
 nav a:hover {
-    color: #F3D290;
+    color: #F2C6A0;
 }
 .content {
     color: #BFB8AA;
@@ -105,6 +101,12 @@ blockquote {
 .credit {
     color: #F2C6A0;
 }
+a {
+    color: #C97E67;
+}
+a:hover {
+    color: #F2C6A0;
+}
 .highlight {
     color: #F2C6A0;
     font-weight: bold;
@@ -115,7 +117,7 @@ blockquote {
 #bold {
     font-weight: bold;
 }
-a:hover, ol {
+.markets {
     color: #F2C6A0;
 }
 img {
@@ -126,10 +128,11 @@ img {
 }
 footer {
     text-align: center;
-    background-color: #13171C;
+    background-color: #1C120E;
     padding: 1rem 0 1rem 0;
+    margin-top: 1rem;
     font-weight: bold;
-    color: #1B4758;
+    color: #8A5646;
 }
 footer ul {
     margin: 0;
@@ -142,19 +145,20 @@ footer li {
     padding: 0 0.3rem;
 }
 footer a {
-    color: #1B4758;
+    color: #8A5646;
+    text-decoration: none;
 }
 footer a:hover {
-    color: #466673;
+    color: #C97E67;
 }
 #credit {
     font-size: 0.9rem;
 }
 #credit a {
     font-size: 1rem;
-    color: #BF472C;
+    color: #802F1D;
 }
 #credit a:hover {
-    color: #802F1D;
+    color: #C97E67;
 }
 

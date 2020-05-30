@@ -30,7 +30,7 @@ h1 {
     color: #6B6E56;
 }
 span {
-    color: #1B4758;;
+    color: #1B4758;
 }
 a {
     color: #BF472C;
@@ -73,7 +73,7 @@ nav a:hover {
     color: #F3FAC3;
 }
 .swiper-container {
-    padding-bottom: 8rem;
+    padding-bottom: 3rem;
 }
 .swiper-slide {
     text-align: center;
@@ -83,7 +83,7 @@ img {
 }
 .info-blurb {
     font-size: 1.2rem;
-    color: #F3FAC3;
+    color: #6A6E56;
     margin: 0 auto;
     text-align: center;
     width: 80%;
@@ -91,13 +91,13 @@ img {
     line-height: 1.8rem;
 }
 .info-blurb a {
-    color: #B38E44;
+    color: #B5BA91;
 }
 .info-blurb a:visited {
-    color: #6B6E56;
+    color: #466673;
 }
 .info-blurb a:hover {
-    color: #525442;
+    color: #6A6E56;
 }
 .directions {
     text-align: center;

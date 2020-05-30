@@ -1,6 +1,5 @@
 html {
     box-sizing: border-box;
-    scroll-behavior: smooth;
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -22,13 +21,13 @@ h1 {
     padding: 2rem 3rem;
     margin-top: 0;
     margin-bottom: 0;
-    color: #BF472C;
+    color: #FF4142;
 }
-h2 {
-    color: #BF472C;
+span {
+    color: #155754;
 }
 a {
-    color: #BF472C;
+    color: #FF4142;
     text-decoration: none;
 }
 nav ul {
@@ -42,7 +41,7 @@ nav li {
 }
 nav a {
     text-decoration: none;
-    color: #BF472C;
+    color: #FF4142;
     font-size: 1.2rem;
     display: block;
     padding: 1rem 4rem;
@@ -50,63 +49,67 @@ nav a {
 nav a:hover {
     color: #F3D290;
 }
-section {
+main {
+    padding: 0;
+    margin: 0;
+    cursor: url(../images/game-cursor.png), default;
+    background-color: #C0C86D;
     display: flex;
-    flex-flow: column nowrap;
-    padding: 0 7rem 1.5rem 7rem;
-    line-height: 1.8rem;
-    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
 }
-section a {
-    color: #F1BF5B;
+.bg {
+    background-image: url(../images/game-background.png);
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-section a:visited {
-    color: #B38E44;
+.hole {
+    background-color: black;
+    border-radius: 50%;
+    overflow: visible;
+    width: 267px;
+    height: 267px;
 }
-section a:hover {
-    color: #BF472C;
+.hole-container {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.hobbylinks:hover {
-    color: #BF472C;
+.mole {
+    position: relative;
+    right: 30px;
 }
-section ul {
-    display: inline-block;
-    background-color: #13171C;
-    border-radius: 8px;
-    margin-left: 2.5rem;
-    padding: 2rem 6rem;
+.hungry {
+    cursor: url(../images/game-cursor-worm.png), default;
 }
-section li {
-    list-style-type: square;
-    line-height: 2.2rem;
-    font-size: 1.3rem;
-    color: #F2E3D0;
+.gone {
+    display: none;
 }
-.second {
-    margin-bottom: 1.2rem;
+.hide {
+    display: none;
 }
-.first img {
-    float: right;
-    margin: 1.75rem 0 1rem 2rem;
+.worm {
+    width: 1660px;
 }
-.second img {
-    float: left;
-    margin: 0.5rem 2rem 1rem 0;
+.worm-container {
+    overflow: hidden;
+    transition: width 0.5s ease-in-out;
 }
-section:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-em {
-    font-style: italic;
+.worm-box {
+    width: 1660px;
 }
 footer {
     text-align: center;
     background-color: #13171C;
     padding: 1rem 0 1rem 0;
     font-weight: bold;
-    color: #1B4758;
+    color: #155754;
 }
 footer ul {
     margin: 0;
@@ -119,18 +122,18 @@ footer li {
     padding: 0 0.3rem;
 }
 footer a {
-    color: #1B4758;
+    color: #155754;
 }
 footer a:hover {
-    color: #466673;
+    color: #1B8067;
 }
 #credit {
     font-size: 0.9rem;
 }
 #credit a {
     font-size: 1rem;
-    color: #BF472C;
+    color: #FF4142;
 }
 #credit a:hover {
-    color: #802F1D;
+    color: #BA241D;
 }

@@ -17,6 +17,7 @@ header {
 }
 .flex {
     display: flex;
+    flex-flow: row nowrap;
     width: 100%;
     padding-right: 5rem;
     background-color: #836D5E;
@@ -41,7 +42,7 @@ span {
     justify-content: right;
     font-size: 1rem;
     background-color: #F2E3D0;
-    border: none;
+    border-radius: 5px;
 }
 h2 {
     color: #BF472C;
@@ -70,8 +71,14 @@ nav a:hover {
     color: #F2E3D0;
 }
 .doggos {
-    padding-top: 1.75rem;
+    padding-top: 0rem;
     padding-bottom: 6rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.doggos p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 @keyframes spin {
     to {
